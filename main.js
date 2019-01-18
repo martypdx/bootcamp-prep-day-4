@@ -11,13 +11,11 @@ function greet() {
     
     // make greeting
     var greeting = 'Hello ' + firstName + ' ' + lastName + '!';
-    console.log(greeting);
-
+    
     // display greeting
-
-
-    // remove prompt
-
+    var greeter = document.getElementById('greeter');
+    
+    greeter.textContent = greeting;
 
 }
 
